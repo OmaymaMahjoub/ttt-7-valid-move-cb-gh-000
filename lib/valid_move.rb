@@ -2,6 +2,8 @@
 def valid_move(board=[" "," "," "," "," "," "," "," "," "],index=0)
   if position_taken?(board,index)
     return false
+  elsif index>8
+    return false
   end
   return true
 end
