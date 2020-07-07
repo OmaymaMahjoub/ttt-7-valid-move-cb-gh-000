@@ -12,4 +12,3 @@ def position_taken?(arr=[" "," "," "," "," "," "," "," "," "],index=0)
   end
   return false
 end
-
