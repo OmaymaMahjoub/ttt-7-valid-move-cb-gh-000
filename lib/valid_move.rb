@@ -4,7 +4,7 @@ def valid_move(board=[" "," "," "," "," "," "," "," "," "],index=0)
     return false
   end
   return true
-
+end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken?(arr=[" "," "," "," "," "," "," "," "," "],index=0)
   if (arr[index]=="O")||(arr[index]=="X")
@@ -12,3 +12,4 @@ def position_taken?(arr=[" "," "," "," "," "," "," "," "," "],index=0)
   end
   return false
 end
+
